@@ -1,0 +1,7 @@
+install zeromq
+install & run new version of redis
+bundle exec ruby server.rb
+visit examples/test.html in your browser
+bundle exec ruby notify.rb # to start sending notifications
+
+
