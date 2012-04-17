@@ -14,6 +14,6 @@ puts "started dcell"
   Kernel.sleep(3)
   server = DCell::Global[:websockets]
   puts "sending notification"
-  server.notify!("Uzytkownik1", "notification from ruby")
+  server.notify!("UserName", "notification from ruby")
 }
 puts "done sending"
